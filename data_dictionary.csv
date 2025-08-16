@@ -1,0 +1,31 @@
+Table,Field Name,Data Type,Description
+streaming_data,track_id,string,Unique identifier for the song track.
+streaming_data,artist_name,string,The name of the artist.
+streaming_data,song_name,string,The title of the song.
+streaming_data,country,string,The country where the stream occurred (e.g., MX, BR, AR).
+streaming_data,stream_count,integer,The number of streams.
+streaming_data,platform,string,The streaming platform (e.g., Spotify, Apple Music).
+streaming_data,date,date,The date of the stream.
+streaming_data,album_id,string,The ID of the album.
+streaming_data,isrc,string,International Standard Recording Code.
+airplay_data,track_id,string,Unique identifier for the song track.
+airplay_data,artist_name,string,The name of the artist.
+airplay_data,song_name,string,The title of the song.
+airplay_data,station_id,string,The ID of the radio station.
+airplay_data,city,string,The city where the airplay occurred.
+airplay_data,country,string,The country where the airplay occurred (e.g., MX, BR, AR).
+airplay_data,airplay_count,integer,The number of times the song was played.
+airplay_data,airplay_date,date,The date of the airplay.
+social_media_data,artist_name,string,The name of the artist.
+social_media_data,platform,string,The social media platform (e.g., YouTube, Instagram).
+social_media_data,follower_count,integer,The number of followers.
+social_media_data,engagement_rate,float,The engagement rate (interactions / followers).
+social_media_data,video_views,integer,The number of video views.
+social_media_data,comment_count,integer,The number of comments.
+social_media_data,date,date,The date the metrics were collected.
+publishing_data,artist_name,string,The name of the artist.
+publishing_data,song_name,string,The title of the song.
+publishing_data,publisher_affiliation,string,The music publisher affiliated with the artist.
+publishing_data,pro_affiliation,string,The Performing Rights Organization affiliation.
+publishing_data,songwriting_credits,string,A list of songwriting credits for the track.
+publishing_data,percent_share,float,The percentage share of royalties for the artist.
